@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h1 {
+    font-family:"Allerta";
+	font-weight:normal;
+	font-size: 55px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+   font-family:"Allerta";
+   font-weight: normal;
+   font-size: 40px;
+   text-align: center;
+   margin: 0;
+   padding: 0 0 60px 0;
+}
+
+h3 {
+   font-family: "Open Sans";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: center;
+   margin: 5px 0;
+   padding: 0;
+}
+
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px; }
+
+
+#header {
+	width: 100%;
+	background: url('../img/header-bg.png');
+	height: 80px;
+	position: fixed;
+	z-index: 2;
+}
+
+#nav { width: 600px; float: right; margin-top: 20px;}
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin: 20px 0 0 20px;  color: #fff; font-family:"Allerta"; font-weight: bold; }
+#nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+}
+
+#nav li{
+	z-index: 2;
+	margin: 9px 10px;
+	float: left;
+	padding-right: 20px;
+}
+
+#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Allerta'; }
+#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
+#nav li a:hover { color: #fff; opacity:1;  }
+
+
+#home, #about{ width: 100%; }
+#home{
+	background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 700px;
+	margin: 0;
+	padding: 90px 0 0 0;
+	background-size: cover;
+	text-align: center;
+}
+
+#about{
+	width: 900px;
+	background-color: #fff;
+	color: #333333;
+	height: 290px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 80px 0 150px 0;
+	text-align: center;
+}
+
+.clear {
+		padding-top: 20px;
+	    clear:both;
+
+}
+
+#schedule{
+	background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 520px;
+	padding: 90px 0 0 0;
+	background-size: cover;
+	line-height: 250%;
+	text-align: center;
+}
+
+.wrapper_schedule {
+	width: 250px;
+	margin: 0 auto;
+	padding-left: 30px;
+	text-align: left;
+}
+
+#schedule h3 {
+	text-align: left;
+
+}
+
+#schedule-padding {
+	padding-top: 15px;
+}
+
+#sponsors{
+	background-color: #fff;
+	color: #333333;
+	height: 300px;
+	padding: 80px 0;
+	text-align: center;
+}
+
+#prizes{
+	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+	height: 510px;
+	margin: 0 auto;
+	padding: 80px 0;
+	color: #fff;
+	background-size: cover;
+}
+
+#prizes .heading {
+	font-size: 20px;
+}
+
+#prizes h3 {
+	font-size: 18px;
+}
+
+.wrapper_prizes {
+	width: 900px;
+	margin: 0 auto;
+}
+.col .col-1 { float:left; width:26%; margin-left:6%; }
+.col .col-2 { float:left; width:26%; margin-left:6%; }
+.col .col-3 { float:right; width:26%; }
+
+/*Two column div*/
+.col .col-1-2 { float:left; width:26%; margin-left:6%; }
+.col .col-2-2 { float:left; width:26%; margin-left:6%; }
+
+.social-links {
+	text-align: center;
+}

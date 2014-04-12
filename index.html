@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+ 	<head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Global Appathon 2014</title>
+       <link rel="stylesheet" href="css/styles.css"/>
+	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+       <link href='http://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
+		<script>
+   
+		<!----- JQUERY FOR SLIDING NAVIGATION --->   
+		$(document).ready(function() {
+		  $('a[href*=#]').each(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+		    && location.hostname == this.hostname
+		    && this.hash.replace(/#/,'') ) {
+		      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+		      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+		       if ($target) {
+		         var targetOffset = $target.offset().top;
+
+		<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+		         $(this).click(function() {
+		            $("#nav li a").removeClass("active");
+		            $(this).addClass('active');
+		           $('html, body').animate({scrollTop: targetOffset}, 400);
+		           return false;
+		         });
+		      }
+		    }
+		  });
+
+		});
+
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<header id="header">
+		<div id="logo"><a href="">GLOBAL APPATHON 2014</a></div>
+		<nav id="nav">
+			<ul>
+			<li><a href="#home" title="Home">Home</a></li>
+			<li><a href="#about" title="About">About</a></li>
+			<li><a href="#schedule" title="Schedule">Schedule</a></li>
+			<li><a  href="#sponsors" title="Sponsors">Sponsors</a></li>
+			<li><a href="#prizes" title="Prizes">Prizes + Food!</a></li>
+			</ul>
+		</nav> <!--end nav-->
+		</header> <!--end header-->
+
+		<div id="home">
+		    <img src="img/logo.png" alt="Global Appathon Logo">
+		    <h3>12-hour fun sized hackathon for mobile development, 7pm on Friday, April 25</h3>
+		    
+		    <h1> Register Here! </h1>
+
+		    <!--Eventbrite-->
+		    <div style="width:80%; text-align:left; margin: 10px auto;" ><iframe  src="https://www.eventbrite.com/tickets-external?eid=11263067137&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ></div></div>
+			<!--down arrow-->
+			<a href="#about" title="About"><img src="img/down_arrow.png"></a>
+	    </div> <!--end home div-->
+
+		<div id="about" class="col">
+			<h2>ABOUT</h2>
+
+            <div class="col-1">
+		    <h3>Global App Initiative presents: The first "Global Appathon"! This is a 12-hour fun sized hackathon for mobile development, open to all students to work on mobile projects.</h3>
+		    </div><!--end col-1 div-->
+
+		    <div class="col-2">
+			<h3>Come for FREE food, FREE swag, and FREE fun!
+			There will be category prizes for projects that are developed entirely during the 12-hour period, but anyone working on a mobile project is welcome to come and benefit from the assistance of our instructors!</h3>
+			</div><!--end end col-2 div-->
+
+			<div class="col-3">
+			<h3>It's gonna be epic. See you there!
+			Location 750 Comm. Ave (EPIC and GCB)
+			</br>
+			EPIC (Engineering Product Innovation Center)
+			GCB (2nd Floor of EPIC) Rooms 201 through 209 - for extra workspaces!
+			</h3>
+			</div><!--end col-3 div-->
+
+			<!--down arrow-->
+			<div class="clear"><a href="#schedule" title="Schedule"><img src="img/down_arrow_dark.png"></a></div>
+		</div><!--end about, col divs-->
+
+	    <div id="schedule">
+	   		<h2>SCHEDULE</h2>
+		    <div class="wrapper_schedule">
+		       <h3>6:30 PM Registration in EPIC</br>
+				7:00 PM Kickoff Speech</br>
+				7:45 PM Break Up Into Teams</br>
+				9:00 PM Food Round 1</br>
+				10:00 PM Project Check-ins</br>
+				02:00 AM Food Round 2</br>
+				07:00 AM Judging Starts</br>
+				07:30 AM Prizes Announced</h3>
+	    	</div> <!--end wrapper_schedule div-->
+			<div id="schedule-padding"><a href="#sponsors" title="Sponsors"><img src="img/down_arrow.png"></a></div>
+	    </div> <!--end schedule div-->
+
+		<div id="sponsors">
+			<h2>SPONSORS</h2>
+			<h3>A list of sponsors here </h3>
+			</br>
+			</br>
+			<a href="#prizes" title="Prizes"><img src="img/down_arrow_dark.png"></a>
+	    </div> <!--end sponsors div-->
+
+		<div id="prizes">
+			<h2>PRIZES</h2>
+           	<div class="wrapper_prizes col">
+			    <div class="col-1">
+				    <h3><span class="heading">Prize Categories:</span> </br></br>
+					1) Best User Experience</br>
+					2) Best Graphics</br>
+					3) Most Creative Engineering</br>
+					4) Best Overall App</br>
+					</h3>
+			    </div><!--end col-1 div-->
+
+			    <div class="col-2">
+					<h3>
+					<span class="heading">FREE Swag:</span></br></br>
+					GAI Stickers
+					</h3>
+				</div><!--end col-2 div-->
+
+				<div class="col-3">
+					<h3><span class="heading">FREE Food:</span></br></br>
+					Sandwich and Wrap Platters</br>
+					Chicken Tenders</br>
+					Chips and Salsa</br>
+					T. Anthony's Pizza</br>
+					Cookies and Ice Cream</br>
+					Soda, Water, Red Bull, Coffee</h3>
+					</h3>
+				</div><!--end col-3 div-->
+
+			</div><!--end wrapper_prizes div-->
+
+			<div class="clear social-links">
+			</br></br></br></br></br>
+			    <a href="https://www.facebook.com/groups/globalapps/" target="_blank"><img src="img/fb.png"></a>
+			    <a href="https://twitter.com/GlobalAppsBU" target="_blank"><img src="img/twitter.png"></a>
+			    <a href="https://www.youtube.com/user/GlobalAppInitiative" target="_blank"><img src="img/youtube.png"></a>
+			</div><!--end clear, social-links divs-->
+	    </div> <!--end prizes div-->
+	</body>
+</html>
+
+
+
+
+

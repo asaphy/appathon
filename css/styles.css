@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	background-color: #F0F0F0;
 }
 
 h1 {
@@ -20,7 +21,7 @@ h2 {
    font-size: 40px;
    text-align: center;
    margin: 0;
-   padding: 0 0 60px 0;
+   padding: 0 0 40px 0;
 }
 
 h3 {
@@ -78,13 +79,18 @@ h3 {
 
 #about{
 	width: 900px;
-	background-color: #fff;
+	background-color: #F0F0F0;
 	color: #333333;
 	height: 290px;
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 80px 0 150px 0;
+	padding: 80px 0 140px 0;
 	text-align: center;
+}
+
+#about .heading {
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .clear {
@@ -120,7 +126,7 @@ h3 {
 }
 
 #sponsors{
-	background-color: #fff;
+	background-color: #F0F0F0;
 	color: #333333;
 	height: 300px;
 	padding: 80px 0;
@@ -138,6 +144,7 @@ h3 {
 
 #prizes .heading {
 	font-size: 20px;
+	font-weight: bold;
 }
 
 #prizes h3 {
@@ -148,9 +155,9 @@ h3 {
 	width: 900px;
 	margin: 0 auto;
 }
-.col .col-1 { float:left; width:26%; margin-left:6%; }
-.col .col-2 { float:left; width:26%; margin-left:6%; }
-.col .col-3 { float:right; width:26%; }
+.col .col-1 { float:left; width:28%; margin-left:4%; }
+.col .col-2 { float:left; width:27%; margin-left:4%; }
+.col .col-3 { float:right; width:27%; }
 
 /*Two column div*/
 .col .col-1-2 { float:left; width:26%; margin-left:6%; }

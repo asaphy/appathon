@@ -46,7 +46,7 @@ h3 {
 }
 
 #nav { width: 600px; float: right; margin-top: 20px;}
-#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin: 20px 0 0 20px;  color: #fff; font-family:"Allerta"; font-weight: bold; }
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 28px; margin: 20px 0 0 20px;  color: #fff; font-family:"Allerta"; font-weight: bold; }
 #nav ul{
 	list-style: none;
 	display: block;

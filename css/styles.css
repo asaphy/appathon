@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background-color: #F0F0F0;
+	background-color: #FFF;
 }
 
 h1 {
@@ -16,9 +16,9 @@ h1 {
 }
 
 h2 {
-   font-family:"Allerta";
-   font-weight: normal;
-   font-size: 40px;
+   font-family:"Open Sans";
+   font-weight: 300;
+   font-size: 48px;
    text-align: center;
    margin: 0;
    padding: 0 0 40px 0;
@@ -77,9 +77,16 @@ h3 {
 	text-align: center;
 }
 
+.date{
+   font-family:"Open Sans";
+   font-weight: 300;
+   font-size: 48px;
+   text-align: center;
+}
+
 #about{
 	width: 900px;
-	background-color: #F0F0F0;
+	background-color: #FFF;
 	color: #333333;
 	height: 290px;
 	margin: 0 auto;
@@ -102,7 +109,7 @@ h3 {
 #schedule{
 	background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
 	color: #fff;
-	height: 520px;
+	height: 490px;
 	padding: 90px 0 0 0;
 	background-size: cover;
 	line-height: 250%;
@@ -126,11 +133,64 @@ h3 {
 }
 
 #sponsors{
-	background-color: #F0F0F0;
+	background-color: #FFF;
 	color: #333333;
-	height: 300px;
+	height: 550px;
 	padding: 80px 0;
 	text-align: center;
+}
+
+#sponsors a {
+	text-decoration: none;
+	color:#05B8CC;
+}
+
+#sponsors a .hariri{
+	text-decoration: none;
+	color:#6F4242;
+}
+
+#sponsors a .epic{
+	text-decoration: none;
+	color:#D80000;
+}
+
+#sponsors a .undergradfee{
+	text-decoration: none;
+	color:#000;
+}
+
+#sponsors a:visited .hariri{ text-decoration: none; color:#6F4242; }
+
+#sponsors a:visited .epic{ text-decoration: none; color:#D80000; }
+
+#sponsors a:visited .gai{ text-decoration: none; color:#05B8CC; }
+
+#sponsors a:visited .undergradfee{ text-decoration: none; color:#000; }
+
+.epic {
+	font-family: "Open Sans";
+	font-size: 32px;
+	font-weight: 300;
+}
+
+.undergradfee {
+	font-family: "Open Sans";
+	font-size: 32px;
+	font-weight: 300;
+}
+
+
+.hariri {
+	font-family: "Open Sans";
+	font-size: 32px;
+	font-weight: 300;
+}
+
+.gai {
+	font-family: "Open Sans";
+	font-size: 32px;
+	font-weight: 300;
 }
 
 #prizes{
@@ -143,8 +203,8 @@ h3 {
 }
 
 #prizes .heading {
-	font-size: 20px;
-	font-weight: bold;
+	font-size: 24px;
+	font-family: "Open Sans";
 }
 
 #prizes h3 {
@@ -152,16 +212,16 @@ h3 {
 }
 
 .wrapper_prizes {
-	width: 900px;
+	width: 700px;
 	margin: 0 auto;
 }
-.col .col-1 { float:left; width:28%; margin-left:4%; }
-.col .col-2 { float:left; width:27%; margin-left:4%; }
-.col .col-3 { float:right; width:27%; }
+.col .col-1 { float:left; width:29%;  }
+.col .col-2 { float:left; width:30%; margin-left: 4% }
+.col .col-3 { float:right; width:34%; margin-left: 3% }
 
 /*Two column div*/
-.col .col-1-2 { float:left; width:26%; margin-left:6%; }
-.col .col-2-2 { float:left; width:26%; margin-left:6%; }
+.col .col-1-2 { float:left; width:30%; padding: 0 0 0 20%; height: 120px;}
+.col .col-2-2 { float:left; width:30%; padding: 0 20% 0 0; height: 120px;}
 
 .social-links {
 	text-align: center;

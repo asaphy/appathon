@@ -212,16 +212,16 @@ h3 {
 }
 
 .wrapper_prizes {
-	width: 700px;
+	width: 1100px;
 	margin: 0 auto;
 }
-.col .col-1 { float:left; width:28%;  }
-.col .col-2 { float:left; width:32%; margin-left: 4% }
-.col .col-3 { float:right; width:34%; margin-left: 1% }
+#about .col .col-1 { float:left; width:28%;  }
+#about .col .col-2 { float:left; width:32%; margin-left: 4% }
+#about .col .col-3 { float:right; width:34%; margin-left: 1% }
 
-#prizes .col .col-1 { float:left; width:35%;  }
-#prizes .col .col-2 { float:left; width:24%; margin-left: 4% }
-#prizes .col .col-3 { float:right; width:34%; margin-left: 1% }
+#prizes .col .col-1 { float:left; width:30%;  margin-left: 4% }
+#prizes .col .col-2 { float:left; width:24%;  }
+#prizes .col .col-3 { float:left; width:30%; }
 
 /*Two column div*/
 .col .col-1-2 { float:left; width:30%; padding: 0 0 0 20%; height: 120px;}

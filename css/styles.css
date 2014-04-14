@@ -70,7 +70,7 @@ h3 {
 #home{
 	background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
 	color: #fff;
-	height: 700px;
+	height: 750px;
 	margin: 0;
 	padding: 90px 0 0 0;
 	background-size: cover;
@@ -233,9 +233,4 @@ h3 {
 
 @media all and (max-width: 1000px) {
   #logo { display: none; }
-}
-
-#container
-{
-min-width: 600px;
 }

@@ -230,3 +230,12 @@ h3 {
 .social-links {
 	text-align: center;
 }
+
+@media all and (max-width: 1000px) {
+  #logo { display: none; }
+}
+
+#container
+{
+min-width: 600px;
+}
